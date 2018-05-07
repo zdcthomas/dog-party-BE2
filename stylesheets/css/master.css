@@ -6,7 +6,6 @@ body {
 header {
   background: turquoise;
   font-size: 18px;
-  /* margin: 10px; */
   padding: 10px;
   background-image: './images/dog1-sq.jpg';
 }
@@ -42,7 +41,7 @@ header>.links>li{
   transition-duration: 0.4s;
   display: flex;
   align-self: center;
-  margin: 10px;
+  margin: 10px; 
   border: 3px solid turquoise;
   height: 10%;
   width: 40%;
@@ -68,15 +67,13 @@ div.center_image {
 
 .circular--square {
   border-radius: 70%;
-  border: 3px solid turquoise;
+  border: 3px solid rgb(23, 54, 133);
   width: 300px;
   height: 300px;
-
 }
 
 content{
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   flex-flow: row wrap;
 }
