@@ -1,0 +1,135 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: turquoise;
+  font-size: 18px;
+  /* margin: 10px; */
+  padding: 10px;
+  background-image: './images/dog1-sq.jpg';
+}
+
+header img{
+  float:left;
+  height: 35px;
+}
+
+header>.links{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  list-style-type: none;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+header>.links>li:hover{
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-shadow: 2px 2px grey;
+}
+
+header>.links>li{
+  display: block;
+  padding: 8px;
+}
+
+.button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  border: 3px solid turquoise;
+  height: 10%;
+  width: 40%;
+  text-align: center;
+  font-size: 13px;
+  color: turquoise;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+  background-color: turquoise;
+  color: white;
+}
+
+div.center_image {
+  background-image: url("../../images/park.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.circular--square {
+  border-radius: 70%;
+  border: 3px solid turquoise;
+  width: 300px;
+  height: 300px;
+
+}
+
+content{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.dog_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+  width: 20%;
+  text-align: center;
+  margin: 15px;
+}
+
+.dog_profile>.title {
+  display: flex;
+  text-align: center;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 35%;
+  color: white;
+  background:rgb(23, 54, 133);
+}
+
+footer>.center_footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 35%;
+  width: 35%;
+  margin: 15px;
+  justify-content: space-around;
+}
+
+footer>.center_footer>.social_media_links {
+  display: flex;
+  margin: 15px;
+  height: 35%;
+  justify-content: space-around;
+}
+
+footer>.center_footer>.social_media_links>a:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.79), 0 6px 20px 0 rgba(254, 254, 254, 0.845)
+}
+
+footer a {
+  display: flex;
+  margin: 15px;
+  justify-content: space-around;
+  color: white;
+}
